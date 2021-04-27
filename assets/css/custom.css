@@ -1,0 +1,369 @@
+/*************************************************************************************
+*Project Name: Wvilan;
+*Project Date: ;
+*Project submission date: ;
+***************************
+*Project Total Pages
+*____________________
+*1.Home
+***Total Section
+***1.TopBar
+***2.Header
+***3.Slider
+***4.principle
+***5.Course
+***6.Facts
+***7.Blog
+***8.Testimonial
+***9.Footer
+*____________________
+*********************************************************************************/
+/********************************************************************************
+								Base CSS Start
+*********************************************************************************/
+*,body{
+	padding: 0;
+	margin: 0;
+	font-family: 'Raleway', sans-serif,'Jost', sans-serif;
+}
+ul{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+	color: #f1f1f1;
+}
+::placeholder{
+	color: white;
+}
+
+main{
+	width: 1170px !important;
+	margin: auto;
+}
+/********************************************************************************
+								Base CSS End
+*********************************************************************************/
+/********************************************************************************
+								Common CSS Start
+*********************************************************************************/
+.primary_color{
+	color: #4d41e1 !important;
+}
+.secondary_color{
+	color: #000 !important;
+}
+.primary_bg{
+	background-color: #4d41e1 !important;
+}
+.secondary_bg{
+	background-color: #000022 !important;
+}
+.third_color{
+	color: #6f6f6f !important;
+}
+.fw500{
+	font-weight: 500 !important;
+}
+.fw600{
+	font-weight: 600 !important;
+}
+.fw700{
+	font-weight: 700 !important;
+}
+.fw800{
+	font-weight: 800 !important;
+}
+.fw900{
+	font-weight: 900 !important;
+}
+.btn{
+	border-radius: 0px !important;
+}
+.btn_primary{
+	background-color: #56ab2f !important;
+	color: white !important;
+}
+.btn_outline_primary{
+	border: 1px solid #56ab2f !important;
+	color: #56ab2f !important;
+}
+.btn_outline_primary:hover{
+	color: white !important;
+	background-color: #56ab2f !important;
+}
+.no-radius{
+	border-radius: 0 !important;
+}
+.c_font_family{
+	font-family: 'Lora', serif;
+}
+.z-index-0{
+	z-index: -111;
+}
+.margin_0{
+	margin: 0 !important;
+}
+.color_white{
+	color: #fff !important;
+}
+/********************************************************************************
+								Common CSS End
+*********************************************************************************/
+
+/********************************************************************************
+								Header CSS Start
+*********************************************************************************/
+.active_c{
+	color: #4d41e1 !important;
+}
+.navbar-nav li a{
+	font-family: 'Jost', sans-serif;
+}
+.navbar-nav ul li a:nth-child(1){
+	padding-left: 70px;
+}
+.nav-item .fa-search{
+	border-radius: 7px;
+	padding: 5px;
+	color: #fff;
+	font-size: 11px;
+}
+.navbar{
+	position: absolute;
+	top: 0;
+}
+
+.header_bg{
+	background-image: url(../img/home/wvilan.png);
+	background-position: cover;
+	/*width:100%;*/
+	height: 728px;
+	background-size: cover;
+	position: relative;
+	/*border-top-left-radius: 50px;*/
+}
+.navbar-brand img{
+	width: 100px;
+}
+.mar_left{
+    margin-left: 488px !important;
+}
+
+.left{
+	position: absolute;
+	top: 120px;
+
+}
+.ml_-20{
+	margin-left: -18px !important;
+}
+.p_font{
+	font-size: 14px;
+}
+.pl_height{
+	line-height: 27px;
+}
+.hl_height{
+	line-height: 35px;
+}
+.h_button{
+	border-radius: 5px !important;
+	font-size: 12px !important;
+	padding: 10px 15px !important;
+}
+.fnt_size{
+	font-weight: lighter !important;
+}
+/********************************************************************************
+								Header CSS End
+********************************************************************************
+/********************************************************************************
+								Firm Focused CSS Start
+*********************************************************************************/
+.fwjose{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 30pt;
+	font-weight: 600;
+}
+.josefinbold{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 32pt;
+	font-weight: 700;
+
+}
+.fwsecondright{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 18pt;
+	padding-top: 27px;
+	font-weight: 600;
+}
+.fwsecondrightdes{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 10pt;
+	color: #7b7b7b;
+}
+
+.fwpop{
+font-family: 'Poppins', sans-serif;
+font-size: 16pt;
+color: #878787;
+}
+.fwblue{
+font-family: 'Poppins', sans-serif;
+font-size: 12pt;
+padding-right: 50px;
+margin-left: 33px;
+margin-top: 105px;
+}
+.secpadding{
+	padding-bottom: 17px;
+	color: #4d41e1;
+	padding-top: 130px;
+}
+
+.cardbg{
+	
+}
+.card1{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+/*	padding-right: 36px;
+	padding-bottom: 32px;*/
+	position: absolute;
+	top: 790px;
+
+}
+.card_padd{
+	padding: 20px 0 !important;
+}
+
+.card2{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	top: 100px;
+	position: relative;
+
+
+}
+
+.card3{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+/*	padding-right: 40px;
+	padding-bottom: 32px;*/
+
+	position: relative;
+	top: 280px;
+}
+.card4{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    top: 130px;
+	position: relative;
+
+}
+
+.btnshadow{
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+/*	width:136px;
+	height:38px;*/
+	cursor: pointer;
+	-webkit-transition-property: box-shadow, transform;
+	transition-property: box-shadow, transform;
+
+}
+
+.btnshadow:hover, .btnshadow:focus, .btnshadow.active{
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+	-webkit-transform:scale(1.1);
+}
+
+
+
+
+
+/********************************************************************************
+								Firm Focused CSS End
+*********************************************************************************/
+/********************************************************************************
+								Course CSS Start
+*********************************************************************************/
+
+
+
+
+
+
+/********************************************************************************
+								Course CSS End
+*********************************************************************************/
+/********************************************************************************
+								Facts CSS Start
+*********************************************************************************/
+
+
+
+
+
+
+/********************************************************************************
+								Facts CSS End
+*********************************************************************************/
+/********************************************************************************
+								Blog CSS Start
+*********************************************************************************/
+
+
+
+
+
+/********************************************************************************
+								Blog CSS End
+*********************************************************************************/
+/********************************************************************************
+								Testimonial CSS Start
+*********************************************************************************/
+
+
+
+
+
+/********************************************************************************
+								Testimonial CSS End
+*********************************************************************************/
+/********************************************************************************
+								News Letter Css Start
+*********************************************************************************/
+
+
+
+
+
+
+/********************************************************************************
+								News Letter Css End
+*********************************************************************************/
+/********************************************************************************
+								Footer CSS Start
+*********************************************************************************/
+
+
+
+
+
+
+/********************************************************************************
+								Footer CSS End
+*********************************************************************************/
+
+/********************************************************************************
+								Responsive CSS Start
+*********************************************************************************/
+@media only screen and (max-width: 991px) {
+	
+	
+}
+@media only screen and (max-width: 575px) {
+	
+}
+/********************************************************************************
+								Responsive CSS End
+*********************************************************************************/
+
